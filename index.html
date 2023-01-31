@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/imagens/favicon-16x16.png">
+    <link rel="manifest" href="./src/imagens/site.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <title>The Last of Us</title>
+</head>
+
+<body>
+
+    <div class="fundo-video">
+        <video class="video" autoplay Loop muted>
+            <source src="./src/video/video-tlou.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/imagens/tlou-logo.png" alt="Logo Vagalumes">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/imagens/tlou-titulo.png" alt="imagem do título do jogo">
+            <p class="descricao">Em uma civilização devastada, em que infectados e sobreviventes veteranos estão à solta, Joel, um protagonista abatido, é contratado para tirar uma garota de 14 anos, Ellie, de uma zona de quarentena militar. No entanto, o que começa como um pequeno serviço se transforma em uma jornada brutal através do país.</p>
+            <button class="botao-trailer">Veja o trailer</button>
+        </div>
+        <img class="tlou" src="./src/imagens/tlou-chars.png" />
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/kE7li_u1nmg?start=9" title="Trailer do jogo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
